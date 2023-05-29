@@ -1,26 +1,79 @@
 table {
-	width: 100%;
+    width: 100%;
 }
 
-table, th, td {
-  border: 1px solid rgb(255, 255, 255);
-  border-collapse: collapse;
+table,
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
 }
 
 table th {
-	background-color: #000000;
-	border-color: rgb(255, 255, 255);
-	padding: 10px;	
+    background-color: #808080;
+    border-color: rgb(15, 15, 15);
+    padding: 10px;
 }
 
 table td {
-	padding: 10px;	
+    padding: 10px;
 }
 
 table .elu label {
-	padding-right: 15px;	
+    padding-right: 15px;
+
 }
 
 .col-presenca {
-	width: 200px;
+    width: 200px;
+}
+
+.calendario {
+    width: 5px;
+    height: 5px;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+.calendar__title {
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+.sim {
+    color: rgb(41, 241, 41);
+}
+
+.nao {
+    color: rgb(100, 0, 0)
+}
+
+.table__title {
+    color: black;
+}
+
+.back-button-container {
+    text-align: right;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(124, 0, 0);
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button {
+    height: 42px;
+    padding: 10px 15px;
+    background-color: rgb(21, 124, 0);
+    color: #ffffff;
+    border-radius: 4px;
 }

@@ -59,11 +59,19 @@ const useAlunos = () => {
 				presenca: true,
 			},
 			{
+				nome: 'Mateus Galvão',
+				presenca: true,
+			},
+			{
 				nome: 'Michael Pereira',
 				presenca: true,
 			},
 			{
 				nome: 'Thales Sanchez',
+				presenca: true,
+			},
+			{
+				nome: 'Theo Braga',
 				presenca: true,
 			}
 		])
